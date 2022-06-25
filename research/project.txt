@@ -1,0 +1,25 @@
+Website color:
+
+green: #104F55, #32746D, 9EC5AB, #01200F, 011502
+
+star colors: /* (#FF9529), Metallic Yellow (#FDCC0D) and Golden Yellow (#FFDF00) */
+
+
+
+
+https://medium.com/@denkyogbonnaya/how-to-upload-and-preview-image-with-drag-and-drop-in-react-de355b902207
+
+https://dev.to/codefoxx/how-to-drag-drop-images-into-your-project-with-vanilla-javascript-1026
+
+https://www.youtube.com/watch?v=vMIZKtVruH8
+
+https://www.youtube.com/watch?v=adoPad91Gco'
+
+
+https://www.youtube.com/watch?v=RgJwPco3wew
+
+https://www.youtube.com/watch?v=qaHLd8de6nM
+
+https://www.youtube.com/watch?v=5YquWKsi0Q8
+
+https://www.youtube.com/watch?v=UkBvsCMxrNU

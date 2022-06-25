@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+/* Reuseable */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+section{
+    margin-top: 80px;
+}
+/* BUTTON */
+.btn--green{
+    background-color: #cd1c0d;
+    padding: 15px 30px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+}
+.txt--green{
+    color: #217232;
+}
+/* 
+===========
+GRID
+===========
+*/
+.grid{
+    display: flex;
+    flex-wrap: wrap;  
+  }
+  
+.grid__item--2{
+    width: calc(100% / 2 - 20px);
+    margin: 10px;
+}
+.grid__item--3{
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+}
+.grid__item--4{
+    width: calc(100% / 4 - 20px);
+    margin: 10px;
+}
+
+
+/* LOGO */
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo__img{
+
+}
+.logo__text{
+    font-size: 30px;
+    font-weight: 500;
+    color: #3f3f3f;
+    padding-left: 5px;
+}
+
+.home-header{
+    background-color: #f7f5eb;
+    height: 100vh;
+}
+/* NAVIGATION */
+nav{
+display: flex;
+justify-content: space-between;
+padding: 20px 0;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navigation__item{
+   margin-left: 25px; 
+}
+.navigation__link{
+    text-decoration: none;
+    color: #3f3f3f;
+    transition: all .2s;
+}
+.navigation__link:hover{
+    color: #fd550f;
+    font-weight: 500;
+}
+/* Splash */
+.splash{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+    width: inherit;
+}
+.splash__box{
+    animation: slideInTop 1s ease-in;
+}
+.splash__text{
+    width: 500px;
+    margin-bottom: 30px;
+}
+.splash__text--big{
+    font-size: 60px;
+}
+.splash__img{
+    
+}
+.splash__img{
+    width: 100%;
+}
+
+/* 
+==================
+RECIPE
+==================
+*/
+.recipe{
+    background-color: #f7f5eb;
+    position: relative;
+}
+.recipe:hover{
+    animation: grow .3s;
+}
+.recipe__img-box{
+
+}
+.recipe__img{
+    width: 100%;
+    /* filter: brightness(.7); */
+}
+.recipe__time{
+    position: absolute;
+    color: #fff;
+    left: 10px;
+    top: 5px;
+}
+.recipe__time-icon{
+    font-size: 30px;
+}
+.recipe__deatils{
+    padding: 20px;
+}
+.recipe__name{
+    font-size: 25px;
+    color: #217232;
+    margin-top: 5px;
+}
+.recipe__desc{
+    color: #5e5e5e;
+    margin-top: 10px; 
+}
+.recipe__rating{ 
+  color: #217232;
+  /* color: #FF9529; */
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-200px);
+    }
+    50%{
+        opacity: .5;
+        transform: translateY(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.02);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  } */
